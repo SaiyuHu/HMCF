@@ -1,0 +1,9 @@
+{
+  "mask_dir": "dataset/small/train/mask",
+  "sigma": 1.0,
+  "td_75th_percentile": 332.080322265625,
+  "sample_count": 5,
+  "mean_td_length": 269.35743560791013,
+  "median_td_length": 271.0440673828125,
+  "calculation_time": "2026-04-16T20:31:34.023823"
+}

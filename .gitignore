@@ -1,0 +1,19 @@
+# 演示脚本目录（不公开）
+demo/
+
+# 模型权重（单文件 357MB，超出 GitHub 100MB 限制）
+parameterfault/
+
+# 训练输出与检查点
+work_dir/
+
+# 推理结果输出
+test_result/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 系统文件
+.DS_Store
+Thumbs.db
