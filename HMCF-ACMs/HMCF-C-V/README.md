@@ -27,7 +27,7 @@ $$\frac{\partial \phi}{\partial t} = \delta_\varepsilon(\phi)\left[-(I-C_1)^2 + 
 
 - $\delta_\varepsilon(\cdot)$：正则化 Dirac 函数；
 - $C_1, C_2$：演化区域内外的最优灰度拟合常数；
-- $\kappa = \nabla\cdot(\nabla\phi/|\nabla\phi|)$：零水平集曲率；
+- $\kappa = -\nabla\cdot(\nabla\phi/|\nabla\phi|)$：零水平集曲率；
 - $P(\phi) = 4\Delta\phi + \kappa$：距离正则化惩罚项。
 
 HMCF 格式进一步将上式视为双曲型算子，对 $\phi$ 与其时间导数 $\phi_t$ 同步推进（$b$ 为波速平方）：
@@ -45,7 +45,7 @@ HMCF-C-V/
 ├── binaryfit.m                  区域最优灰度拟合常数 C1 / C2
 ├── Heaviside.m                  正则化 Heaviside 函数 Hε(φ)
 ├── Delta.m                      正则化 Dirac 函数 δε(φ)
-├── curvature.m                  曲率 κ = div(∇φ/|∇φ|)
+├── curvature.m                  曲率 κ = -div(∇φ/|∇φ|)
 ├── forward_gradient.m           向前差分梯度
 ├── backward_gradient.m          向后差分梯度
 ├── sdf2circle.m                 圆形符号距离函数（初始轮廓）
